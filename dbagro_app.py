@@ -1,6 +1,14 @@
 import pandas as pd
 import numpy as np
+import streamlit as st
 
+st.set_page_config(
+    page_title="Dashboard Interactivo",
+    page_icon="📊",
+    layout="wide"
+)
+st.title("📊 Dashboard Interactivo con Streamlit")
+st.sidebar.title("🔍 Opciones de Navegación")
 # Establecer semilla para reproducibilidad
 np.random.seed(42)
 
