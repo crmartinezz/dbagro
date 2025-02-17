@@ -29,6 +29,4 @@ data_agro = pd.DataFrame({
 })
 if menu == "Datos":
     st.subheader("📂 Datos Generados")
-    st.dataframe(data)
-# Mostrar las primeras filas de la base de datos generada
-data_agro.head()
+    st.dataframe(data_agro)
