@@ -12,6 +12,10 @@ st.sidebar.title("🔍 Opciones de Navegación")
 # Establecer semilla para reproducibilidad
 np.random.seed(42)
 
+menu = st.sidebar.selectbox(
+    "Selecciona una opción:",
+    ["Inicio", "Datos", "Visualización", "Configuración"]
+)
 # Generación de la base de datos
 data_agro = pd.DataFrame({
     "Fecha": pd.date_range(start="2024-01-01", periods=150, freq="D"),
