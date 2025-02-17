@@ -23,6 +23,8 @@ data_agro = pd.DataFrame({
     "Región": np.random.choice(["Antioquia", "Cundinamarca", "Santander", "Tolima", "Valle del Cauca", "Magdalena", "Nariño", "Cesar"], size=150),
     "Tipo_Clima": np.random.choice(["Tropical", "Templado", "Cálido", "Frío"], size=150)
 })
-
+if menu == "Datos":
+    st.subheader("📂 Datos Generados")
+    st.dataframe(data)
 # Mostrar las primeras filas de la base de datos generada
 data_agro.head()
