@@ -7,7 +7,7 @@ st.set_page_config(
     page_icon="📊",
     layout="wide"
 )
-st.title("📊 Dashboard Interactivo con Streamlit")
+st.title("📊 Base de Datos AgroColombiano")
 st.sidebar.title("🔍 Opciones de Navegación")
 # Establecer semilla para reproducibilidad
 np.random.seed(42)
