@@ -3,7 +3,7 @@ import numpy as np
 import streamlit as st
 
 st.set_page_config(
-    page_title="Dashboard Interactivo",
+    page_title="Base de Datos AgroColombiano",
     page_icon="📊",
     layout="wide"
 )
